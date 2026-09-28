@@ -1,14 +1,19 @@
 {
   "name": "lovable-ai-clone",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "db:migrate": "prisma migrate dev"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.33.1",
+    "@prisma/client": "^5.17.0",
     "next": "14.2.15",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -20,6 +25,7 @@
     "@types/react-dom": "18.3.0",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.15",
+    "prisma": "^5.17.0",
     "typescript": "5.5.4"
   }
 }
