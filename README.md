@@ -1,4 +1,4 @@
-# Lovable AI Clone
+# MILS AI
 
 A production-ready Lovable-style web app generator powered by Claude 3.5 Sonnet.
 
